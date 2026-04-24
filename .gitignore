@@ -1,0 +1,96 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+.env
+
+# Local Netlify folder
+.netlify
+# CasaGo backend / secrets
+backend_azure/node_modules/
+deploy_stage/node_modules/
+casago_ios_keys/
+*.p8
+*.pem
+*.key
+
+# Temp and logs
+_check_tmp/
+_zip_check/
+deployments/
+docker_logs_only/
+*.zip
+# Azure logs
+LogFiles/
+full_docker_log.txt
+log.txt
+# temp build folders
+_check/
+_deploy_clean/
+_deploy_tmp/
+_old/
+_stage_backend/
+_zipcheck/
+deploy_stage/
+
+# logs
+*.log
+full_docker_log.txt
+log.txt
+
+# Azure credentials
+publishProfile.xml
+
+# node modules
+node_modules/
+backend_azure/node_modules/
+
+# Flutter build
+build/
+android/build/
+*.lnk
+backend_azure/_deploy_tmp/
+.metadata
+.vercel
+.env*.local

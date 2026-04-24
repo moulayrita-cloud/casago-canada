@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casago Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2C3E50;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        footer {
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy for Casago</h1>
+<p><strong>Last updated:</strong> <span id="date"></span></p>
+
+<div class="section">
+    <h2>1. Introduction</h2>
+    <p>Casago (“we”, “our”, “us”) provides a ride-request and driver-dispatch application which allows riders to request transportation and enables drivers to accept and complete rides.</p>
+    <p>This Privacy Policy explains how we collect, use, and protect your personal data when you use the Casago mobile application.</p>
+    <p>By using Casago, you agree to the practices described in this Privacy Policy.</p>
+</div>
+
+<div class="section">
+    <h2>2. Data We Collect</h2>
+    <h3>2.1 Information You Provide</h3>
+    <ul>
+        <li>Phone number</li>
+        <li>Pickup and destination addresses</li>
+        <li>Ride details (date, time, price, distance, ETA)</li>
+    </ul>
+
+    <h3>2.2 Driver Information</h3>
+    <ul>
+        <li>Driver name</li>
+        <li>Phone number</li>
+        <li>Vehicle details (model, plate)</li>
+        <li>Real-time GPS location (only when sharing is enabled)</li>
+    </ul>
+
+    <h3>2.3 Automatically Collected Information</h3>
+    <ul>
+        <li>IP address</li>
+        <li>Device information (model, OS version)</li>
+        <li>Approximate location (for address autocomplete and distance calculations)</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>3. How We Use Your Data</h2>
+    <h3>3.1 To Provide Ride Services</h3>
+    <ul>
+        <li>Find the nearest available driver</li>
+        <li>Calculate distance, duration, and ETA</li>
+        <li>Notify drivers and riders of ride status</li>
+        <li>Enable driver reply flow (YES / PICKEDUP / DONE)</li>
+        <li>Send rider notifications</li>
+    </ul>
+
+    <h3>3.2 Communications</h3>
+    <p>We send SMS notifications through trusted providers (such as Twilio or Infobip) for ride updates.</p>
+
+    <h3>3.3 Payments (If enabled)</h3>
+    <p>Payment data is processed securely by Stripe. We do not store credit card information.</p>
+
+    <h3>3.4 Security and Fraud Prevention</h3>
+    <p>We may use your data to detect and prevent suspicious activity.</p>
+</div>
+
+<div class="section">
+    <h2>4. Third-Party Services</h2>
+    <p>We use the following third-party services to operate the app:</p>
+    <ul>
+        <li><strong>Supabase:</strong> Database and backend storage</li>
+        <li><strong>Google Maps APIs:</strong> Geocoding, Distance Matrix, Autocomplete</li>
+        <li><strong>Twilio / Infobip:</strong> SMS delivery</li>
+        <li><strong>Stripe (optional):</strong> Secure payment processing</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>5. Data Sharing</h2>
+    <p>We do not sell your personal data.</p>
+    <p>We only share data with:</p>
+    <ul>
+        <li>Drivers (pickup location and ride info)</li>
+        <li>SMS providers to deliver transactional messages</li>
+        <li>Stripe for payment processing</li>
+        <li>Google Maps APIs</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>6. Data Storage and Security</h2>
+    <p>We use Supabase with encrypted connections to store your data securely.</p>
+    <p>We take reasonable measures to protect your information, including encryption and access control.</p>
+</div>
+
+<div class="section">
+    <h2>7. Data Retention</h2>
+    <p>We retain your personal data only as long as necessary to provide the service or comply with legal obligations.</p>
+    <p>You may request deletion of your data at any time.</p>
+</div>
+
+<div class="section">
+    <h2>8. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+        <li>Access the data we hold about you</li>
+        <li>Request correction of your data</li>
+        <li>Request deletion of your data</li>
+        <li>Withdraw consent</li>
+        <li>Contact us for any privacy-related questions</li>
+    </ul>
+    <p>For requests, contact: <strong>your-email@example.com</strong></p>
+</div>
+
+<div class="section">
+    <h2>9. Children’s Privacy</h2>
+    <p>Casago is not intended for individuals under 18 years old.</p>
+</div>
+
+<div class="section">
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy occasionally. The updated version will always be available on this page.</p>
+</div>
+
+<div class="section">
+    <h2>11. Contact Information</h2>
+    <p>For any questions regarding this Privacy Policy, please contact:</p>
+    <p><strong>Casago Support</strong><br>Email: <strong>your-email@example.com</strong></p>
+</div>
+
+<footer>
+    Casago © <span id="year"></span>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("date").textContent = new Date().toLocaleDateString();
+</script>
+
+</body>
+</html>
