@@ -2,7 +2,7 @@ name: casago
 description: CasaGo app
 publish_to: "none"
 
-version: 1.1.2+48                     
+version: 1.1.2+48                    
 
 environment:
   sdk: ">=3.8.0 <4.0.0"
