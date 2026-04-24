@@ -8,10 +8,20 @@ workflows:
       flutter: stable
       xcode: latest
       cocoapods: default
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.casago.livraisons
 
     scripts:
       - name: Get Flutter packages
         script: flutter pub get
+
+      - name: Set up code signing
+        script: |
+          keychain initialize
+          app-store-connect fetch-signing-files com.casago.livraisons --type IOS_APP_STORE --create
+          keychain add-certificates
+          xcode-project use-profiles
 
       - name: Build iOS IPA
         script: flutter build ipa --release
