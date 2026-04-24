@@ -13,6 +13,10 @@ workflows:
         bundle_identifier: com.casago.livraisons
 
     scripts:
+      - name: Create Flutter env file
+        script: |
+          echo "API_BASE_URL=https://casago-api.azurewebsites.net" > .env
+
       - name: Get Flutter packages
         script: flutter pub get
 
